@@ -1,0 +1,11 @@
+name: 02 basics events
+
+on:
+  push
+
+jobs:
+  print-hello-job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello world 2
+        run: echo "hello world 2"
