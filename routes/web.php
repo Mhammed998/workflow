@@ -32,3 +32,6 @@ Route::get('/redis', function () {
     $result = Redis::get('new_age');
     dd($result);
 });
+
+
+// new line added
