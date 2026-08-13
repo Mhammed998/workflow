@@ -1,10 +1,12 @@
 name: 01 basics workflow
 
 on:
-  workflow_dispatch
+  push:
+    branches:
+      - main
 jobs:
-  print-hello-job:
+  print-hello-job2:
     runs-on: ubuntu-latest
     steps:
-      - name: print hello world
-        run: echo "hello world"
+      - name: print hello world 2
+        run: echo "hello world 2"
