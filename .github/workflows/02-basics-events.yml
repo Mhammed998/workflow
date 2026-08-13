@@ -1,7 +1,7 @@
 name: 02 basics events
 
 on:
-  push
+  pull_request
 
 jobs:
   print-hello-job2:
