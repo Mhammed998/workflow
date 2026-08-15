@@ -2,9 +2,12 @@ name: Basic Variables
 on:
   workflow_dispatch
 
+env:
+  MY_NAME: Mohamed Hashim
+
 jobs:
   print-hello-job2:
     runs-on: ubuntu-latest
     steps:
       - name: Basic Variables
-        run:  echo ${{github.actor}}
+        run:  echo $MY_NAME
