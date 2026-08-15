@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Basic Variables
-        run:  echo $MY_NAME
+        run:  echo ${{vars.MY_CONFIG_VAR}}
