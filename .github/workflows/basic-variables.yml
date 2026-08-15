@@ -6,7 +6,7 @@ env:
   MY_NAME: Mohamed Hashim
 
 jobs:
-  print-hello-job2:
+  print-variables:
     runs-on: ubuntu-latest
     steps:
       - name: Basic Variables
