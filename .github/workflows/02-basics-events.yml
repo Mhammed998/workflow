@@ -7,5 +7,5 @@ jobs:
   print-hello-job2:
     runs-on: ubuntu-latest
     steps:
-      - name: print hello world 2
-        run: echo "hello world 2"
+      - name: print context
+        run:  print ${{github.actor}}
